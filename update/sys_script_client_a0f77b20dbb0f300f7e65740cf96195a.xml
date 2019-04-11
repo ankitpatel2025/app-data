@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>sys_created_on</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>HideVoucherRejected</name>
+        <order/>
+        <script><![CDATA[function onSubmit() {
+   //Type appropriate comment here, and begin script below
+  var ap = g_form.getValue('voucher_approved');
+	var rj= g_form.getValue('voucher_rejected');
+	alert("Voucher Approved" + ap + "Voucher Rejected" + rj);
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-11 05:09:27</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a0f77b20dbb0f300f7e65740cf96195a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>HideVoucherRejected</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Voucher Order Form" source="x_86024_voucher_or">67c6ee5fdbf72300f7e65740cf9619a1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Voucher Order Form">67c6ee5fdbf72300f7e65740cf9619a1</sys_scope>
+        <sys_update_name>sys_script_client_a0f77b20dbb0f300f7e65740cf96195a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-11 05:09:27</sys_updated_on>
+        <table>x_86024_voucher_or_voucher_approval</table>
+        <type>onSubmit</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

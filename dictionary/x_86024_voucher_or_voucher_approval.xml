@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Voucher Approval" max_length="40" name="x_86024_voucher_or_voucher_approval" type="collection">
+        <element label="Voucher Approved" max_length="40" name="voucher_approved" type="string"/>
+        <element label="Voucher Rejected" max_length="40" name="voucher_rejected" type="string"/>
+    </element>
+</database>
