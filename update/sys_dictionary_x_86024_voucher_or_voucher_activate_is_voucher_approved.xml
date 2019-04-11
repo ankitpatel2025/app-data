@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="voucher_expiry_date" table="x_86024_voucher_or_voucher_activate">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="is_voucher_approved" table="x_86024_voucher_or_voucher_activate">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -14,7 +14,7 @@
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Voucher Expiry Date</column_label>
+        <column_label>Is Voucher Approved?</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -27,12 +27,12 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>voucher_expiry_date</element>
+        <element>is_voucher_approved</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="">glide_date_time</internal_type>
+        <internal_type display_value="">boolean</internal_type>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
         <name>x_86024_voucher_or_voucher_activate</name>
@@ -52,16 +52,16 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-04-11 04:07:26</sys_created_on>
-        <sys_id>217ef720db70330015202fb7489619ff</sys_id>
+        <sys_created_on>2019-04-11 05:29:40</sys_created_on>
+        <sys_id>999fffa0db70330015202fb748961921</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Voucher Expiry Date</sys_name>
+        <sys_name>Is Voucher Approved?</sys_name>
         <sys_package display_value="Voucher Order Form" source="x_86024_voucher_or">67c6ee5fdbf72300f7e65740cf9619a1</sys_package>
         <sys_policy/>
         <sys_scope display_value="Voucher Order Form">67c6ee5fdbf72300f7e65740cf9619a1</sys_scope>
-        <sys_update_name>sys_dictionary_x_86024_voucher_or_voucher_activate_voucher_expiry_date</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2019-04-11 05:23:07</sys_updated_on>
+        <sys_update_name>sys_dictionary_x_86024_voucher_or_voucher_activate_is_voucher_approved</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-11 05:29:40</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
