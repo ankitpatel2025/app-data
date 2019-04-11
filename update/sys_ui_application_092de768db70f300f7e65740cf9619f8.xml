@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_application">
+    <sys_ui_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <hint/>
+        <name>Voucher Order Form</name>
+        <order/>
+        <roles>x_86024_voucher_or.voucher_order_form_user</roles>
+        <sys_class_name>sys_ui_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-11 04:07:27</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>092de768db70f300f7e65740cf9619f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Voucher Order Form</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Voucher Order Form" source="x_86024_voucher_or">67c6ee5fdbf72300f7e65740cf9619a1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Voucher Order Form">67c6ee5fdbf72300f7e65740cf9619a1</sys_scope>
+        <sys_update_name>sys_ui_application_092de768db70f300f7e65740cf9619f8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-11 04:07:27</sys_updated_on>
+    </sys_ui_application>
+</record_update>
