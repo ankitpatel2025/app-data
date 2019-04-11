@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" extends="task" label="Voucher Order Form" max_length="40" name="x_86024_voucher_or_voucher_order_form" type="collection"/>
+</database>
